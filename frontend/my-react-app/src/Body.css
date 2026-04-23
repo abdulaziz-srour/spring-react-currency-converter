@@ -1,0 +1,59 @@
+.step{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input, select {
+    width: 100%;
+    max-width: 250px;
+    padding: 12px 15px;
+    font-size: 16px;
+    
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    background-color: #f9fafb;
+    
+    transition: all 0.3s ease;
+  }
+  
+  input:focus, select:focus {
+    outline: none;
+    border-color: #10b981;
+    background-color: white;
+    box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.2);
+  }
+
+  button {
+    background-color: #10b981;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    
+    transition: background-color 0.2s, transform 0.1s;
+  }
+  
+  button:hover {
+    background-color: #059669;
+  }
+  
+  button:active {
+    transform: scale(0.97);
+  }
+
+  .input{
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .error{
+    color: red;
+    text-align: center;
+  }
